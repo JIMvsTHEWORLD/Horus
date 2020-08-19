@@ -866,3 +866,10 @@ ID : 6315f619-5708-40ef-af81-a7c28a4a6eee
 Timestamp : undefined
 Trace : no additional routes
 
+----------------------------------------------------------------------------------------------------
+Method : GetBooks
+Response Time : 54.340ms
+ID : 406d56ac-b12e-4582-90d6-0990c86174f8
+Timestamp : undefined
+Trace : no additional routes
+
