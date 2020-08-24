@@ -9,7 +9,7 @@ const testCustomersJsonFile = path.resolve(__dirname, '../customers/customersMod
 describe('booksDb unit tests', () => {
   beforeAll((done) => {
     fs.writeFile(testBooksJsonFile, JSON.stringify([]), () => {
-      booksDb.reset();
+      // booksDb.reset();
       done();
     });
   });
@@ -23,7 +23,11 @@ describe('booksDb unit tests', () => {
       const book = [{title: 'Hello', author: 'World', numberOfPages: 400, publisher: 'Jimco', bookId: 0}];
       const result = booksDb.create(book);
       expect(result).not.toBeInstanceOf(Error)
+      console.log('RESULT: ', result)
     });
+    xit('has a title of Hello, an author of World, numberOfPages of 400, publisher of Jimco, and a bookId of 0', () =>{
+
+    })
   })
 
 })

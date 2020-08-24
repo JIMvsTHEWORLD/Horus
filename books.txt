@@ -873,3 +873,10 @@ ID : 406d56ac-b12e-4582-90d6-0990c86174f8
 Timestamp : undefined
 Trace : no additional routes
 
+----------------------------------------------------------------------------------------------------
+Method : GetBooks
+Response Time : 65.542ms
+ID : b7edb067-43cb-40bc-9451-a71cb2e03003
+Timestamp : undefined
+Trace : no additional routes
+
